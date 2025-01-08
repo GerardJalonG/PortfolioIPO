@@ -99,12 +99,13 @@ ol, ul {
     height: 100%;
 }
 
-.about_foto, .about_texto, .about_button, .about_container, .about, .experiencia_container, .intro_imagen, .cuadrado, .cuadrados_container, .cuadrado_texto ,.contacto, .contacto_container, .contacto_imagen, .contacto_redes, .navbar{
+
+
+.flex-center {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 
 .about, .experiencia{
     background-color: #121821;
