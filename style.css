@@ -62,11 +62,12 @@ ol, ul {
 
 .intro {
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10vh;
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
 
 .intro_container {
@@ -114,21 +115,21 @@ ol, ul {
     padding: 20px;
 }
 
+.about{
+    min-height: 100vh;
+    height: auto;
+    padding: 80px;
+}
+
 .experiencia {
     height: auto;
     border-radius: 0 0 20px 20px;
 }
 
-.about {
-    border-radius: 40px 40px 0 0;
-}
-
 .about_container {
     flex-direction: row;
     background-color: #121821;
-    width: 90%;
     min-height: 90%;
-    height: auto;
     box-shadow: 0 4px 8px rgba(207, 207, 207, 0.1);
     border: 3px solid transparent;
     border-image: linear-gradient(90deg, #ffbe0b, #fb5607, #ff006e, #8338ec, #3a86ff) 1;
@@ -142,7 +143,7 @@ ol, ul {
 }
 
 .about_img {
-    width: 60%;
+    width: 50%;
     border-radius: 40px;
 }
 
@@ -151,7 +152,6 @@ ol, ul {
     width: 60%;
     height: 80%;
     padding: 5%;
-    line-height: normal;
     color: #c3c3c3;
 }
 
@@ -311,10 +311,6 @@ ol, ul {
     width: 80%;
 }
 
-.contacto {
-    height: 80vh;
-}
-
 .contacto_container {
     justify-content: space-between;
     gap: 20px;
@@ -322,6 +318,7 @@ ol, ul {
     height: 90%;
     background-color: #121821;
     border-radius: 20px;
+    margin: 35px 0;
 }
 
 .contacto_texto {
@@ -394,17 +391,24 @@ form .contacto_texto{
     padding: 20px;
 }
 
-label{
-    color: #c3c3c3;
-    font-size: 1.5rem;
-}
-
 input, textarea {
-    width: 100%;
+    width: 30vw;
+    height: 6vh;
     border-radius: 10px;
     border: 1px solid #c3c3c3;
     background-color: #121821;
     color: #c3c3c3;
+    font-size: 0.9rem;
+}
+
+.form_texto {
+    grid-column: 1 / -1;
+}
+
+textarea{
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
 }
 
 
@@ -446,10 +450,6 @@ input, textarea {
         height: auto;
     }
 
-    .intro {
-        margin-top: 10%;
-    }
-
     .intro_texto {
         padding: 7%;
         text-align: center;
@@ -460,7 +460,7 @@ input, textarea {
     }
 
     .about {
-        height: auto;
+        padding: 10px;
     }
 
     .about_foto {
@@ -547,6 +547,10 @@ input, textarea {
     }
     .intro_img img{ 
         width: 75%;
+    }
+
+    .about {
+        margin-top: 10vh;
     }
 
     .about_texto {
