@@ -118,7 +118,7 @@ ol, ul {
 .about{
     min-height: 100vh;
     height: auto;
-    padding: 80px;
+    padding: 78px;
 }
 
 .experiencia {
@@ -315,7 +315,7 @@ ol, ul {
     justify-content: space-between;
     gap: 20px;
     width: 90%;
-    height: 90%;
+    height: 80vh;
     background-color: #121821;
     border-radius: 20px;
     margin: 35px 0;
@@ -367,6 +367,30 @@ ol, ul {
     background-position: center;
 }
 
+.formulario_container {
+    justify-content: space-between;
+    gap: 20px;
+    width: 90%;
+    height: auto;
+    background-color: #121821;
+    border-radius: 20px;
+    margin: 35px 0;
+    padding: 20px;
+}
+
+.formulario_texto {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #c3c3c3;
+    margin-bottom: 1rem;
+}
+
+.formulario_texto p, .formulario_texto h2 {
+    padding: 0 10%;
+}
+
 form {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -375,20 +399,9 @@ form {
     height: 100%;
     row-gap: 2rem;
 }
-form .contacto_texto{
-    height: auto;
-}
 
-.form_container {
-    justify-content: space-between;
-    gap: 20px;
-    width: 90%;
-    height: auto;
-    background-color: #121821;
-    border-radius: 20px;
-    margin: 0 auto;
-    margin-bottom: 5vh;
-    padding: 20px;
+form .form_texto {
+    grid-column: 1 / -1;
 }
 
 input, textarea {
@@ -401,16 +414,25 @@ input, textarea {
     font-size: 0.9rem;
 }
 
-.form_texto {
-    grid-column: 1 / -1;
-}
-
-textarea{
+textarea {
     width: 100%;
     height: fit-content;
     padding: 10px;
+    resize: none;
 }
 
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
 
 @keyframes imagenContacto {
     0% {
@@ -558,6 +580,10 @@ textarea{
         width: 90%;
         font-size: 1.5rem;
         text-align: center;
+    }
+
+    .about_foto {
+        width: 60%;
     }
 
     .about_img {
