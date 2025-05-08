@@ -1,188 +1,291 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV_GerardJalon</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
-</head>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
 
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
     <header>
-        <nav class="navbar flex-center">
-            <ol class="navbar_items">
-                <li class="navbar_item"><a href="#about">Sobre mí</a></li>
-                <li class="navbar_item"><a href="#experiencia">Experiencia</a></li>
-                <li class="navbar_item"><a href="#contacto">Contacto</a></li>
-            </ol>
-        </nav>
+      <nav class="navbar flex-center">
+        <ol class="navbar_items">
+          <li class="navbar_item"><a href="#about">Sobre mí</a></li>
+          <li class="navbar_item"><a href="#experiencia">Experiencia</a></li>
+          <li class="navbar_item"><a href="#contacto">Contacto</a></li>
+        </ol>
+      </nav>
     </header>
 
     <section class="intro">
-        <container class="intro_container">
-            <div class="intro_texto">Hola! Soy <span class="texto_transparente"> Gerard Jalón</span>, estudiante de DAM y futuro <span class="texto_transparente">developer</span></div>
-            <div class="intro_imagen flex-center">
-                <img src="assets/miiportatil.webp" loading="eager" class="intro_img">
-            </div>
-        </container>
+      <container class="intro_container">
+        <div class="intro_texto">
+          Hola! Soy <span class="texto_transparente"> Gerard Jalón</span>,
+          estudiante de DAM y futuro
+          <span class="texto_transparente">developer</span>
+        </div>
+        <div class="intro_imagen flex-center">
+          <img
+            src="assets/miiportatil.webp"
+            loading="eager"
+            class="intro_img"
+          />
+        </div>
+      </container>
     </section>
 
     <section class="about flex-center" id="about">
-        <container class="about_container flex-center">
-            <div class="about_foto flex-center">
-                <img src="assets/fotocv.webp" loading="eager" class="about_img">
-            </div>
-            <div class="about_texto flex-center">
-                <h2 class="texto_transparente">Sobre mí</h2><br>
-                Me llamo Gerard Jalón, tengo 19 años, vivo en Barcelona y soy estudiante de Desarrollo de Aplicaciones Multiplataforma en La Salle Gràcia.<br><br>
-                Soy un apasionado de las nuevas tecnologias, de los videojuegos y de la programación. Busco ampliar mi formación laboral
-                para desarrollar tanto aplicaciones web como multiplataforma y así expandir mis
-                conocimientos en desarrollo de
-                software.<br><br>
-                <a class="about_button flex-center" href="assets/cvpersonal_gerardjalon.pdf" target="_blank">Ver CV</a>
-            </div>
-        </container>
+      <container class="about_container flex-center">
+        <div class="about_foto flex-center">
+          <img src="assets/fotocv.webp" loading="eager" class="about_img" />
+        </div>
+        <div class="about_texto flex-center">
+          <h2 class="texto_transparente">Sobre mí</h2>
+          <br />
+          Me llamo Gerard Jalón, tengo 19 años, vivo en Barcelona y soy
+          estudiante de Desarrollo de Aplicaciones Multiplataforma en La Salle
+          Gràcia.<br /><br />
+          Soy un apasionado de las nuevas tecnologias, de los videojuegos y de
+          la programación. Busco ampliar mi formación laboral para desarrollar
+          tanto aplicaciones web como multiplataforma y así expandir mis
+          conocimientos en desarrollo de software.<br /><br />
+          <a
+            class="about_button flex-center"
+            href="assets/cvpersonal_gerardjalon.pdf"
+            target="_blank"
+            >Ver CV</a
+          >
+        </div>
+      </container>
     </section>
 
     <section class="experiencia" id="experiencia">
-        <h2 class="texto_transparente">Experiencia</h2><br>
-        <h4 class="texto_subtitulo">Proyectos creados por mí.</h4>
-        <div class="experiencia_container flex-center">
-            <div class="proyecto_texto">
-                <p class="proyecto_titulo">Expanding Cards</p>
-                <p class="proyecto_descripcion">Proyecto de una página web que contiene una serie de tarjetas que se expanden al pasar por ellas.</p>
-                <a class="git_button" href="https://github.com/GerardJalonG/flex_extended" target="_blank">Ver Repo</a>
-            </div>
-            <div class="proyecto_imagen">
-                <a href="https://splendorous-hotteok-81d77e.netlify.app/" target="_blank">
-                    <img src="assets/expandingcards.webp" loading="eager" class="proyecto_img">
-                </a>
-            </div>
+      <h2 class="texto_transparente">Experiencia</h2>
+      <br />
+      <div class="experiencia_container flex-center">
+        <div class="proyecto_texto">
+          <p class="proyecto_titulo">Presentaciones Personales</p>
+          <p class="proyecto_descripcion">
+            Aquí puedes ver dos videos en los que me presento: un Elevator Pitch
+            y un Videocurrículum.
+          </p>
         </div>
-        <div class="experiencia_container flex-center">
-            <div class="proyecto_texto">
-                <p class="proyecto_titulo">Bento Box</p>
-                <p class="proyecto_descripcion"></p>
-                Proyecto de una página web que simula una bento box japonesa, anunciando un producto.
-                <a class="git_button" href="https://github.com/GerardJalonG/bento_box" target="_blank">Ver Repo</a>
-            </div>
-            <div class="proyecto_imagen">
-                <a href="https://golden-biscotti-9728b4.netlify.app/" target="_blank">
-                    <img src="assets/bentobox.webp" loading="eager" class="proyecto_img">
-                </a>
-            </div>
+        <div class="proyecto_videos">
+          <video controls class="proyecto_video">
+            <source src="assets/Elevator Pîtch.mp4" type="video/mp4" />
+            Tu navegador no soporta el elemento de video.
+          </video>
+          <video controls class="proyecto_video">
+            <source
+              src="assets/Vídeocurriculum - Gerard Jalón.mp4"
+              type="video/mp4"
+            />
+            Tu navegador no soporta el elemento de video.
+          </video>
         </div>
-        <h2 class="texto_transparente">Habilidades</h2><br>
-        <h4 class="texto_subtitulo">Lenguajes que utilizo.</h4>
-        <h5 class="texto_h5">WEB FRONT-END</h5>
-        <section class="cuadrados_container flex-center">
-            <div class="cuadrado flex-center">
-                <img src="assets/html.webp" loading="eager" class="icono">
-            </div>
-            <div class="cuadrado flex-center">
-                <img src="assets/css.webp" loading="eager" class="icono">
-            </div>
-        </section>
-        <h5 class="texto_h5">POO BACK-END</h5>
-        <section class="cuadrados_container flex-center">
-            <div class="cuadrado flex-center">               <img src="assets/java.webp" loading="eager" class="icono">
-            </div>
-            <div class="cuadrado flex-center">               <img src="assets/python.webp" loading="eager" class="icono">
-            </div>
-        </section>
-        <h5 class="texto_h5">BASES DE DATOS</h5>
-        <section class="cuadrados_container flex-center">
-            <div class="cuadrado flex-center">               <img src="assets/xampp.webp" loading="eager" class="icono">
-            </div>
-            <div class="cuadrado flex-center">
-                <img src="assets/mysql.webp" loading="eager" class="icono">
-            </div>
-            <div class="cuadrado flex-center">               <img src="assets/phpma.webp" loading="eager" class="icono">
-            </div>
-        </section>
-        <h5 class="texto_h5">HERRAMIENTAS DE DESARROLLO</h5>
-        <section class="cuadrados_container flex-center">
-            <div class="cuadrado flex-center">               <img src="assets/github.webp" loading="eager" class="icono">
-            </div>
-            <div class="cuadrado flex-center">               <img src="assets/intelij.webp" loading="eager" class="icono">
-            </div>
-            <div class="cuadrado flex-center">               <img src="assets/vscode.webp" loading="eager" class="icono">
-            </div>
-        </section>
-        <h4 class="texto_subtitulo">SOFT SKILLS</h4>
-        <section class="cuadrados_container flex-center">
-            <div class="cuadrado_texto flex-center">
-                TRABAJO EN EQUIPO
-            </div>
-            <div class="cuadrado_texto flex-center">
-                COMUNICACIÓN EFECTIVA
-            </div>
-            <div class="cuadrado_texto flex-center">
-                RESOLUCIÓN DE PROBLEMAS
-            </div>
-        </section>
-        <h2 class="texto_transparente">Formación académica</h2><br>
-        <div class="educacion_container">
-            <div class="experiencia_container">
-                <p>CFGS: Desarrollo de Aplicaciones Multiplataforma</p>
-                <p>La Salle Gràcia, Barcelona</p>
-                <p>2024 - Actual</p>
-            </div>  
-            <div class="experiencia_container">
-                <p>Bachillerato Científico - Tecnológico</p>
-                <p>La Salle Congrés, Barcelona</p>
-                <p>2022 - 2023</p>    
-            </div>
+      </div>
+      <div class="experiencia_container flex-center">
+        <div class="proyecto_texto">
+          <p class="proyecto_titulo">Bento Box</p>
+          <p class="proyecto_descripcion"></p>
+          Proyecto de una página web que simula una bento box japonesa,
+          anunciando un producto.
+          <a
+            class="git_button"
+            href="https://github.com/GerardJalonG/bento_box"
+            target="_blank"
+            >Ver Repo</a
+          >
         </div>
+        <div class="proyecto_imagen">
+          <a href="https://golden-biscotti-9728b4.netlify.app/" target="_blank">
+            <img
+              src="assets/bentobox.webp"
+              loading="eager"
+              class="proyecto_img"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="experiencia_container flex-center">
+        <div class="proyecto_texto">
+          <p class="proyecto_titulo">Geranch</p>
+          <p class="proyecto_descripcion"></p>
+          Proyecto de una página web que simula un restaruante parecido a Goiko
+          Grill.
+        </div>
+        <div class="proyecto_imagen">
+          <a href="geranch-web.vercel.app" target="_blank">
+            <img
+              src="assets/image (11).webp"
+              loading="eager"
+              class="proyecto_img"
+            />
+          </a>
+        </div>
+      </div>
+      <h2 class="texto_transparente">Habilidades</h2>
+      <br />
+      <h4 class="texto_subtitulo">Lenguajes que utilizo.</h4>
+      <h5 class="texto_h5">WEB FRONT-END</h5>
+      <section class="cuadrados_container flex-center">
+        <div class="cuadrado flex-center">
+          <img src="assets/html.webp" loading="eager" class="icono" />
+        </div>
+        <div class="cuadrado flex-center">
+          <img src="assets/css.webp" loading="eager" class="icono" />
+        </div>
+      </section>
+      <h5 class="texto_h5">POO BACK-END</h5>
+      <section class="cuadrados_container flex-center">
+        <div class="cuadrado flex-center">
+          <img src="assets/java.webp" loading="eager" class="icono" />
+        </div>
+        <div class="cuadrado flex-center">
+          <img src="assets/python.webp" loading="eager" class="icono" />
+        </div>
+      </section>
+      <h5 class="texto_h5">BASES DE DATOS</h5>
+      <section class="cuadrados_container flex-center">
+        <div class="cuadrado flex-center">
+          <img src="assets/xampp.webp" loading="eager" class="icono" />
+        </div>
+        <div class="cuadrado flex-center">
+          <img src="assets/mysql.webp" loading="eager" class="icono" />
+        </div>
+        <div class="cuadrado flex-center">
+          <img src="assets/phpma.webp" loading="eager" class="icono" />
+        </div>
+      </section>
+      <h5 class="texto_h5">HERRAMIENTAS DE DESARROLLO</h5>
+      <section class="cuadrados_container flex-center">
+        <div class="cuadrado flex-center">
+          <img src="assets/github.webp" loading="eager" class="icono" />
+        </div>
+        <div class="cuadrado flex-center">
+          <img src="assets/intelij.webp" loading="eager" class="icono" />
+        </div>
+        <div class="cuadrado flex-center">
+          <img src="assets/vscode.webp" loading="eager" class="icono" />
+        </div>
+      </section>
+      <h4 class="texto_subtitulo">SOFT SKILLS</h4>
+      <section class="cuadrados_container flex-center">
+        <div class="cuadrado_texto flex-center">TRABAJO EN EQUIPO</div>
+        <div class="cuadrado_texto flex-center">COMUNICACIÓN EFECTIVA</div>
+        <div class="cuadrado_texto flex-center">RESOLUCIÓN DE PROBLEMAS</div>
+      </section>
+      <h2 class="texto_transparente">Formación académica</h2>
+      <br />
+      <div class="educacion_container">
+        <div class="experiencia_container">
+          <p>CFGS: Desarrollo de Aplicaciones Multiplataforma</p>
+          <p>La Salle Gràcia, Barcelona</p>
+          <p>2024 - Actual</p>
+        </div>
+        <div class="experiencia_container">
+          <p>Bachillerato Científico - Tecnológico</p>
+          <p>La Salle Congrés, Barcelona</p>
+          <p>2022 - 2023</p>
+        </div>
+      </div>
+    </section>
+    <section class="reflexion flex-center">
+      <div class="reflexion_container flex-center">
+        <blockquote class="reflexion_quote">
+          "Estudiar Desarrollo de Aplicaciones Multiplataforma ha sido un viaje
+          lleno de aprendizajes y desafíos. Cada proyecto me ha permitido no
+          solo mejorar mis habilidades técnicas, sino también descubrir lo
+          apasionante que es crear soluciones que realmente funcionan."
+        </blockquote>
+      </div>
     </section>
     <div class="contacto flex-center" id="contacto">
-        <div class="contacto_container flex-center">
-            <div class="contacto_texto">
-                <h2 class="texto_transparente">Contacto</h2><br>
-                <p>Si quieres contactar conmigo, puedes hacerlo a través de mi correo electrónico o a través de mis redes sociales.</p><br>
-                <p>Email: <strong>gerard.jalon@gmail.com</strong></p>
-                <div class="contacto_redes flex-center">
-                    <a href="https://www.linkedin.com/in/gerard-jalon/" target="_blank">
-                        <img src="assets/linkedin.webp" loading="eager" class="icono_redes">
-                    </a>
-                    <a href="https://github.com/GerardJalonG" target="_blank">
-                        <img src="assets/github.webp" loading="eager" class="icono_redes">
-                    </a>
-                    <a href="mailto:gerard.jalon@gmail.com" target="_blank">
-                        <img src="assets/mail.webp" loading="eager" class="icono_redes">
-                    </a>
-                </div>
-            </div>
-            <div class="contacto_imagen flex-center">
-            </div> 
+      <div class="contacto_container flex-center">
+        <div class="contacto_texto">
+          <h2 class="texto_transparente">Contacto</h2>
+          <br />
+          <p>
+            Si quieres contactar conmigo, puedes hacerlo a través de mi correo
+            electrónico o a través de mis redes sociales.
+          </p>
+          <br />
+          <p>Email: <strong>gerard.jalon@gmail.com</strong></p>
+          <div class="contacto_redes flex-center">
+            <a href="https://www.linkedin.com/in/gerard-jalon/" target="_blank">
+              <img
+                src="assets/linkedin.webp"
+                loading="eager"
+                class="icono_redes"
+              />
+            </a>
+            <a href="https://github.com/GerardJalonG" target="_blank">
+              <img
+                src="assets/github.webp"
+                loading="eager"
+                class="icono_redes"
+              />
+            </a>
+            <a href="mailto:gerard.jalon@gmail.com" target="_blank">
+              <img src="assets/mail.webp" loading="eager" class="icono_redes" />
+            </a>
+          </div>
         </div>
+        <div class="contacto_imagen flex-center"></div>
+      </div>
     </div>
 
     <div class="formulario flex-center" id="formulario">
-        <div class="formulario_container flex-center">
-            <div class="formulario_texto">
-                <h2 class="texto_transparente">Form</h2><br>
-                <form name="contacto" method="post" netlify>
-                    <p>
-                        <label>Nombre: <input type="text" name="name" required placeholder="Introduce tu nobre"/></label>
-                    </p>
-                    <p>
-                        <label>Email:  <input type="email" name="email" required placeholder="ejemplo@email.com"/></label>
-                    </p>
-                    <p class="form_texto">
-                        <label>Mensaje: <textarea name="message" required placeholder="Introduce el texto"></textarea></label>
-                    </p>
-                    <p class="form_texto button-container">
-                        <button type="submit">Enviar</button>
-                    </p>
-                </form>
-            </div>
+      <div class="formulario_container flex-center">
+        <div class="formulario_texto">
+          <h2 class="texto_transparente">Form</h2>
+          <br />
+          <form name="contacto" method="post" netlify>
+            <p>
+              <label
+                >Nombre:
+                <input
+                  type="text"
+                  name="name"
+                  required
+                  placeholder="Introduce tu nobre"
+              /></label>
+            </p>
+            <p>
+              <label
+                >Email:
+                <input
+                  type="email"
+                  name="email"
+                  required
+                  placeholder="ejemplo@email.com"
+              /></label>
+            </p>
+            <p class="form_texto">
+              <label
+                >Mensaje:
+                <textarea
+                  name="message"
+                  required
+                  placeholder="Introduce el texto"
+                ></textarea>
+              </label>
+            </p>
+            <p class="form_texto button-container">
+              <button type="submit">Enviar</button>
+            </p>
+          </form>
         </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
